@@ -13,7 +13,7 @@ const EventCard = ({ event }) => {
   }, [date]);
 
   return (
-    <div className="w-80 bg-blue-500/20 backdrop-blur-md border border-white/30 rounded-2xl shadow-lg p-5 transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-white/30">
+    <div className="w-90 bg-blue-500/20 backdrop-blur-md border border-white/30 rounded-2xl shadow-lg p-5 transition transform hover:-translate-y-2 hover:shadow-2xl hover:bg-white/30">
       {/* Countdown Badge */}
       <div className="flex justify-end">
         <span className="bg-primary text-white text-xs px-3 py-1 rounded-full shadow">
