@@ -1,4 +1,4 @@
-// import { useState, useEffect } from "react";
+import { useState } from "react";
 import EventCard from "./EventCard";
 
 const AdminDashboard = ({ onLogout }) => {
