@@ -15,7 +15,7 @@ const StudentDashboard = ({ goToAdmin }) => {
   // Function to change subtitle color
   const changeSubtitleColor = () => {
     const subtitle = document.querySelector("#subtitle");
-    if (subtitle) subtitle.style.color = "#BBC863";
+    if (subtitle) subtitle.style.color = "#FFFFFF";
   };
 
   return (
